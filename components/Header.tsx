@@ -1,3 +1,4 @@
+import { UserButton } from "@clerk/nextjs"
 import { Bell, User } from "lucide-react"
 
 const Header = () => {
@@ -13,7 +14,7 @@ const Header = () => {
               <Bell size={20} />
             </button>
             <button className="text-gray-500 focus:outline-none">
-              <User size={20} />
+              <UserButton/>
             </button>
           </div>
         </div>
